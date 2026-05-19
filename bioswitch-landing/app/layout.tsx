@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     description: "Pay anywhere on the Visa network with a single fingerprint. No card needed.",
     type: "website",
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

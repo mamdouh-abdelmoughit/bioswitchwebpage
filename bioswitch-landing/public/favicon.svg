@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <ellipse cx="60" cy="62" rx="6" ry="5.1" stroke="#06b6d4" stroke-width="3" fill="none" opacity="1" />
+  <ellipse cx="60" cy="62" rx="12" ry="10.2" stroke="#06b6d4" stroke-width="3" fill="none" stroke-dasharray="6 3" opacity="0.93" />
+  <ellipse cx="60" cy="62" rx="18" ry="15.3" stroke="#06b6d4" stroke-width="3" fill="none" stroke-dasharray="6 3" opacity="0.86" />
+  <ellipse cx="60" cy="62" rx="24" ry="20.4" stroke="#06b6d4" stroke-width="3" fill="none" opacity="0.79" />
+  <ellipse cx="60" cy="62" rx="30" ry="25.5" stroke="#06b6d4" stroke-width="3" fill="none" stroke-dasharray="6 3" opacity="0.72" />
+  <ellipse cx="60" cy="62" rx="36" ry="30.6" stroke="#06b6d4" stroke-width="3" fill="none" stroke-dasharray="6 3" opacity="0.65" />
+  <ellipse cx="60" cy="62" rx="42" ry="35.7" stroke="#06b6d4" stroke-width="3" fill="none" opacity="0.58" />
+  <ellipse cx="60" cy="62" rx="48" ry="40.8" stroke="#06b6d4" stroke-width="3" fill="none" stroke-dasharray="6 3" opacity="0.51" />
+  <ellipse cx="60" cy="62" rx="54" ry="45.9" stroke="#06b6d4" stroke-width="3" fill="none" stroke-dasharray="6 3" opacity="0.44" />
+  <circle cx="60" cy="62" r="6" fill="#06b6d4" />
+  <circle cx="60" cy="60" r="58" stroke="#06b6d4" stroke-width="1.5" fill="none" opacity="0.3" />
+</svg>
