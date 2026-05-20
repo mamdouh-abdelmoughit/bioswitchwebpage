@@ -64,8 +64,8 @@ function Navbar() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <span className="text-lg font-bold tracking-tight gradient-text">BioSwitch</span>
         <div className="hidden sm:flex gap-8 text-sm" style={{ color: "var(--muted)" }}>
-          {["How it works", "Technology", "Team", "Contact"].map((label, i) => {
-            const hrefs = ["#how-it-works", "#built-on", "#team", "#contact"];
+          {["How it works", "Technology", "Contact"].map((label, i) => {
+            const hrefs = ["#how-it-works", "#built-on", "#contact"];
             return (
               <a
                 key={label}
@@ -350,83 +350,6 @@ function BuiltOn() {
   );
 }
 
-/* ─── Team ─── */
-function Team() {
-  const members = [
-    {
-      name: "Mamdouh Abdelmoughit",
-      role: "Founder · Payments Engineer at HPS",
-      bio: "Payments engineer building the infrastructure layer. Combines deep knowledge of card network protocols with a vision for frictionless, card-free payments.",
-      linkedin: "https://www.linkedin.com/in/mamdouh-abdelmoughit-3902b92a8/",
-      initials: "MA",
-      gradient: "linear-gradient(135deg, #06b6d4, #0ea5e9)",
-    },
-    {
-      name: "Hani Fahmi",
-      role: "Co-founder · Electronic Payments & HSM Expert",
-      bio: "Expert in electronic payment systems and Hardware Security Modules. Architects the cryptographic backbone that makes biometric payments safe at scale.",
-      linkedin: "#",
-      initials: "HF",
-      gradient: "linear-gradient(135deg, #818cf8, #a78bfa)",
-    },
-  ];
-
-  return (
-    <section id="team" className="py-28 px-6">
-      <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16">
-          <span className="text-xs font-semibold tracking-widest uppercase px-3 py-1 rounded-full" style={{ color: "#06b6d4", background: "var(--cyan-glow)", border: "1px solid rgba(6,182,212,0.2)" }}>
-            The team
-          </span>
-          <h2 className="text-4xl sm:text-5xl font-bold mt-5 tracking-tight">
-            Built by<br />
-            <span className="gradient-text">payments insiders</span>
-          </h2>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          {members.map((m) => (
-            <div
-              key={m.name}
-              className="card-hover rounded-2xl p-8 flex flex-col gap-5"
-              style={{ background: "var(--surface)", border: "1px solid var(--border)" }}
-            >
-              <div className="flex items-center gap-4">
-                <div
-                  className="w-14 h-14 rounded-2xl flex items-center justify-center text-lg font-black shrink-0"
-                  style={{ background: m.gradient, color: "#fff", letterSpacing: "-0.02em" }}
-                >
-                  {m.initials}
-                </div>
-                <div>
-                  <p className="font-bold text-base">{m.name}</p>
-                  <p className="text-xs mt-0.5" style={{ color: "var(--muted)" }}>{m.role}</p>
-                </div>
-              </div>
-              <p className="text-sm leading-relaxed" style={{ color: "var(--muted)" }}>{m.bio}</p>
-              {m.linkedin !== "#" && (
-                <a
-                  href={m.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-xs font-medium transition-opacity hover:opacity-70 mt-auto"
-                  style={{ color: "#06b6d4" }}
-                >
-                  <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-                    <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
-                    <circle cx="4" cy="4" r="2" />
-                  </svg>
-                  LinkedIn profile
-                </a>
-              )}
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 /* ─── Contact ─── */
 function Contact() {
   const items = [
@@ -535,7 +458,6 @@ export default function Page() {
         <Hero />
         <HowItWorks />
         <BuiltOn />
-        <Team />
         <Contact />
       </main>
       <Footer />
