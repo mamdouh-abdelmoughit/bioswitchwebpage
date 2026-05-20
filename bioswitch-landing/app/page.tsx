@@ -434,7 +434,7 @@ function Footer() {
     <footer className="py-8 px-6 text-center text-xs" style={{ color: "var(--muted)", borderTop: "1px solid var(--border)" }}>
       <span className="font-semibold gradient-text">BioSwitch</span>
       {" · "}
-      <span>© {new Date().getFullYear()} Mamdouh Abdelmoughit & Hani Fahmi. All rights reserved.</span>
+      <span>© {new Date().getFullYear()} BioSwitch. All rights reserved.</span>
     </footer>
   );
 }
