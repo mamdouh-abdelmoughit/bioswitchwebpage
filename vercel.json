@@ -1,0 +1,6 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "cd bioswitch-landing && npm run build",
+  "installCommand": "cd bioswitch-landing && npm install",
+  "outputDirectory": "bioswitch-landing/.next"
+}
