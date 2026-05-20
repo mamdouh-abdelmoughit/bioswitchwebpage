@@ -402,7 +402,7 @@ function Contact() {
           Investors, bank partners, or payment network contacts — we&apos;d love to talk.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+        <div className="flex flex-col sm:flex-row justify-center gap-5">
           {items.map((item) => (
             <a
               key={item.label}
