@@ -137,7 +137,7 @@ function Hero() {
       <div className="animate-fade-in-up" style={{ animationDelay: "0.25s" }}>
         <p className="max-w-xl mx-auto text-lg sm:text-xl mt-4 leading-relaxed" style={{ color: "var(--muted)" }}>
           Biometric payment infrastructure replacing physical cards with a single fingerprint —
-          connecting all your Visa cards across all banks, at ATMs, POS, and online.
+          connecting all your payment cards across all banks, at ATMs, POS, and online.
         </p>
       </div>
 
@@ -193,7 +193,7 @@ function HowItWorks() {
     {
       num: "02",
       title: "Choose your card",
-      desc: "At payment time, confirm your identity with your fingerprint and select which of your Visa cards to charge — secured by a PIN.",
+      desc: "At payment time, confirm your identity with your fingerprint and select which of your cards to charge — secured by a PIN.",
       icon: (
         <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7" stroke="#06b6d4" strokeWidth="1.8">
           <rect x="3" y="8" width="26" height="18" rx="3" />
@@ -206,7 +206,7 @@ function HowItWorks() {
     {
       num: "03",
       title: "Pay anywhere",
-      desc: "Complete transactions at any ATM, POS terminal, or online — on the entire global Visa network. No card needed, ever.",
+      desc: "Complete transactions at any ATM, POS terminal, or online — across global payment networks. No card needed, ever.",
       icon: (
         <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7" stroke="#06b6d4" strokeWidth="1.8">
           <circle cx="16" cy="16" r="13" />
@@ -298,7 +298,7 @@ function BuiltOn() {
         </svg>
       ),
       title: "EMVCo Standards",
-      desc: "Built on the same global standards powering billions of chip card transactions — interoperable with the full Visa network.",
+      desc: "Built on the same global standards powering billions of chip card transactions — interoperable with major payment networks worldwide.",
     },
     {
       icon: (
@@ -365,16 +365,6 @@ function Contact() {
       ),
     },
     {
-      label: "Phone",
-      value: "+212 701 050 660",
-      href: "tel:+212701050660",
-      icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-5 h-5">
-          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.19 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z" />
-        </svg>
-      ),
-    },
-    {
       label: "LinkedIn",
       value: "/in/mamdouh-abdelmoughit",
       href: "https://www.linkedin.com/in/mamdouh-abdelmoughit-3902b92a8/",
@@ -409,7 +399,7 @@ function Contact() {
           <span className="gradient-text">future of payments</span>
         </h2>
         <p className="text-base mb-14" style={{ color: "var(--muted)" }}>
-          Investors, bank partners, or Visa network contacts — we&apos;d love to talk.
+          Investors, bank partners, or payment network contacts — we&apos;d love to talk.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">

@@ -8,14 +8,14 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: "BioSwitch — Your fingerprint is your card",
   description:
-    "Biometric payment infrastructure replacing physical cards with a single fingerprint, connecting all your Visa cards across all banks — at ATMs, POS, and online.",
-  keywords: ["biometric payment", "fingerprint payment", "Visa", "HSM", "EMVCo", "fintech"],
+    "Biometric payment infrastructure replacing physical cards with a single fingerprint, connecting all your payment cards across all banks — at ATMs, POS, and online.",
+  keywords: ["biometric payment", "fingerprint payment", "HSM", "EMVCo", "fintech"],
   icons: {
     icon: "/Bioswitch.png",
   },
   openGraph: {
     title: "BioSwitch — Your fingerprint is your card",
-    description: "Pay anywhere on the Visa network with a single fingerprint. No card needed.",
+    description: "Pay anywhere on any payment network with a single fingerprint. No card needed.",
     type: "website",
   },
 };
