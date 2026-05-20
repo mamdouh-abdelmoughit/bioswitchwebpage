@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     "Biometric payment infrastructure replacing physical cards with a single fingerprint, connecting all your Visa cards across all banks — at ATMs, POS, and online.",
   keywords: ["biometric payment", "fingerprint payment", "Visa", "HSM", "EMVCo", "fintech"],
+  icons: {
+    icon: "/favicon.png",
+  },
   openGraph: {
     title: "BioSwitch — Your fingerprint is your card",
     description: "Pay anywhere on the Visa network with a single fingerprint. No card needed.",
